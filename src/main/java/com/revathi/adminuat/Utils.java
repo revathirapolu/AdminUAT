@@ -27,4 +27,8 @@ public class Utils extends BaseClass{
         sel.selectByVisibleText(text);
     }
 
+    public void getElement(){
+
+    }
+
 }
