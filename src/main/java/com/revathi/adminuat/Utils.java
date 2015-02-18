@@ -18,6 +18,7 @@ public class Utils extends BaseClass{
     }
     public static boolean isTextPresent(String text)
     {
+        System.out.println("in method : isTextPresent");
         return driver.findElement(By.tagName("body")).getText().contains(text);
     }
 
